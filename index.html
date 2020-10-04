@@ -31,8 +31,15 @@ p {line-height: 2}
   background-position: center;
   background-size: cover;
 }
+
+
 .bgimg {background-image: url("https://firebasestorage.googleapis.com/v0/b/heymnnit-54edc.appspot.com/o/webSite.png?alt=media&token=d9364ecf-1833-471f-b1b7-434f4cc6207a")}
 .bgimg2 {background-image: url("https://trello-attachments.s3.amazonaws.com/5f3a25f275fa5b4a9eaaf2e5/5f60c4fa944c5366a14573f5/165ca18a5987a68968e0de1e955b7ee0/splash.png")}
+
+@media only screen and (max-device-width : 768px) {
+  .bgimg {background-image: url("/resized.png")}
+}
+
 .install_app{text-align: end; color: #fff; right:0; position: absolute; margin-right: 2%; transition: transform .2s;}
 .install_app :hover {
     cursor: pointer;
